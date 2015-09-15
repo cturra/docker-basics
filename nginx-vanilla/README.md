@@ -16,14 +16,14 @@ Running the container
 ---------------------
 The following Docker run command will get the container running with a published port in place:
 ```
- $ docker run --name nginx -p 80:80 -d nginx:vanilla
+ $ docker run --name nginx -p 8080:80 -d nginx:vanilla
 ```
 
 Testing nginx
 -------------
 After the container is running, you should be able to connect locally over the published port.
 ```
- $ curl -I localhost
+ $ curl -I localhost:8080
  HTTP/1.1 200 OK
  Server: nginx/1.8.0
  Date: Mon, 14 Sep 2015 21:44:59 GMT
