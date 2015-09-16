@@ -2,7 +2,7 @@ About this example
 ------------------
 This example Dockerfile will build a docker container with nginx installed and running. 
 Additionally, we're shipping a customer sites-available/default configuration file. Once
-up and running, you will have a default "Welcome to nginx on Debian!" page with a custom
+up and running, you will have a custom "Docker Basics Example" page with a custom
 header: `X-Docker-Basics: DOCKER`
 
 Finally, we're including a custom "document" root directory which contains our web
